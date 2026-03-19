@@ -1,6 +1,6 @@
 // include guards to prevent redefining of SONG_CPP
-#ifndef SONG_CPP
-#define SONG_CPP
+#ifndef SONG_H
+#define SONG_H
 
 // Gives string data type
 #include <string>
