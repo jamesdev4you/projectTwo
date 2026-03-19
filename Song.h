@@ -21,7 +21,7 @@ class Song{
 
         // Prints out song details using iostream cout
         void SongDetails(){
-            std::cout << "Title: " << title << "\nArtist: " << artist << "\nTime: " << time;
+            std::cout << "Title: " << title << "\nArtist: " << artist << "\nTime: " << time << "\n";
         }
 
 };

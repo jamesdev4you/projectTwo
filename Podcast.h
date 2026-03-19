@@ -4,7 +4,7 @@
 #include <string>
 #include <iostream>
 // Imports song cpp for inheritance (this is a child class)
-#include "Song.cpp"
+#include "Song.h"
 
 class Podcast : public Song{
     public:
@@ -16,7 +16,7 @@ class Podcast : public Song{
 
     void PodcastDetails(){
         std::cout << "Title: " << title << "\nArtist: " << artist << "\nTime: " << time
-        << "\nEpisode: " << episode << "\nSponsor: " << sponsor;
+        << "\nEpisode: " << episode << "\nSponsor: " << sponsor << "\n";
     }
 };
 
