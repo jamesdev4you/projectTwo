@@ -9,7 +9,7 @@
 
 class Song{
     public: 
-        // Three data points in every song and podcast
+        // Three data points in every song and podcast (an inherited subclass)
         std::string title;
         std::string artist;
         std::string time;

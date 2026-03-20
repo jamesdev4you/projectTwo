@@ -8,16 +8,18 @@
 
 class Podcast : public Song{
     public:
+        // Additional subclass variables
         std::string sponsor;
-        int episode;
+        std::string episode;
 
-    // Constructor
-    Podcast(std::string title, std::string artist, std::string time, std::string sponsor, int episode):
-    Song(title, artist, time), sponsor(sponsor), episode(episode) {}
+        // Constructor
+        Podcast(std::string title, std::string artist, std::string time, std::string sponsor, std::string episode):
+        Song(title, artist, time), sponsor(sponsor), episode(episode) {}
 
-    void PodcastDetails(){
-        std::cout << "Title: " << title << "\nArtist: " << artist << "\nTime: " << time
-        << "\nEpisode: " << episode << "\nSponsor: " << sponsor << "\n";
+        // Shows Podcast Details 
+        void PodcastDetails(){
+            std::cout << "Title: " << title << "\nArtist: " << artist << "\nTime: " << time
+            << "\nEpisode: " << episode << "\nSponsor: " << sponsor << "\n";
     }
 };
 
