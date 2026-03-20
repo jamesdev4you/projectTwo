@@ -12,7 +12,7 @@ class Podcast : public Song{
         int episode;
 
     // Constructor
-    Podcast(std::string title, std::string artist, string time, std::string sponsor, int episode):
+    Podcast(std::string title, std::string artist, std::string time, std::string sponsor, int episode):
     Song(title, artist, time), sponsor(sponsor), episode(episode) {}
 
     void PodcastDetails(){

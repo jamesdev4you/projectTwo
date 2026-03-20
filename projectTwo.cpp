@@ -11,8 +11,7 @@ int main(){
         std::cin >> choice;
 
         if(choice == 1){
-            std::string title, artist;
-            double time;
+            std::string title, artist, time;
             
             std::cout << "What is the Song title?\n";
             std::cin >> title;
@@ -24,8 +23,7 @@ int main(){
             player.addSong(Song(title, artist, time));
         }
         else if(choice == 2){
-            std::string title, artist, sponsor;
-            double time;
+            std::string title, artist, sponsor, time;
             int episode;
             
             std::cout << "What is the Podcast title?\n";
