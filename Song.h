@@ -12,10 +12,10 @@ class Song{
         // Three data points in every song and podcast
         std::string title;
         std::string artist;
-        double time;
+        std::string time;
 
         // Constructor. Deconstructor not needed due to dequeue.
-        Song(std::string title, std::string artist, double time) :
+        Song(std::string title, std::string artist, std::string time) :
             title(title), artist(artist), time(time)
             {};
 
